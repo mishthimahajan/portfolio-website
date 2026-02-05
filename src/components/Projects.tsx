@@ -13,31 +13,32 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Bike-time – Immersive Experience",
-      description: "Developed an interactive biking experience website featuring dynamic animations, route exploration, performance stats, and a sleek responsive interface for riders and enthusiasts.",
-      image: "/Images/project-1.jpg",
-      tech: ["React", "Node.js", "Framer Motion", "Express.js", "PostgreSQL", "Tailwind CSS", "Docker"],
+      title: "Telehealth AI Assitant",
+      description: "A Telehealth AI Assistant is an intelligent digital system that helps patients and doctors with virtual consultations, symptom analysis, and healthcare support in real time.",
+      image: "/Images/project1.jpeg",
+      tech: ["React", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "LLM (OpenAI / Gemini)", "LangChain", "Prompt Engineering", "JWT Authentication", "REST APIs", "Git/GitHub"],
+
       liveUrl: "",
       githubUrl: ""
     },
 
     {
       id: 2,
-      title: "3D Portfolio Website – Interactive & Animated",
-      description: "A visually engaging portfolio website featuring real-time 3D elements with Spline, fluid animations using GSAP, and a responsive UI built with React and Tailwind CSS.",
-      image: "/Images/project-2.jpg",
-      tech: ["React", "Spline", "GSAP", "Tailwind CSS", "Vercel"],
-      liveUrl: "",
-      githubUrl: ""
+      title:"FoodLink",
+      description: "FoodLink is a web platform that connects food providers with people in need to reduce food waste and support communities.",
+      tech: ["React", "Javascript", "tailwindCSS","Node.js","Expressjs","MongoDB","JWT","REST APIs","Git/GitHub"],
+      image: "/Images/project2.jpeg",
+      liveUrl: "https://food-link-five.vercel.app/",
+      githubUrl: "https://github.com/mishthimahajan/FoodLink"
     },
     {
       id: 3,
-      title: "3D Website Landing Page",
-      description: "A modern 3D landing page built with Spline, HTML, and CSS, featuring smooth animations, interactive visuals, and a responsive, elegant layout for an engaging and immersive user experience across all devices.",
-      image: "/Images/project-3.jpg",
-      tech: ["HTML", "CSS", "Spline"],
-      liveUrl: "",
-      githubUrl: ""
+      title: "Skill Exchange Platform",
+      description: "A **Skill Exchange Platform** is a web application where people trade skills and services with each other instead of money, helping everyone learn and grow together.",
+      image: "/Images/project3.jpeg",
+      tech: ["React", "Javascript", "tailwindCSS","Node.js","Expressjs","MongoDB","JWT Authentication","REST APIs","Git/GitHub"],
+      liveUrl: "skill-exchange-lac.vercel.app/",
+      githubUrl: "https://github.com/mishthimahajan/SkillExchange"
     }
 
   ];

@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { Globe, Code, Lightning, Rocket, Heart, Database, GitBranch, Cube, Terminal, Cloud } from 'phosphor-react';
+import { Globe, Code, Lightning, Rocket, Heart, Database, GitBranch, Cube, Terminal, Cloud,Brain,Robot,Cpu } from 'phosphor-react';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -13,17 +13,21 @@ const About = () => {
 
   const skills = [
     { icon: Globe, name: 'HTML5/CSS3', level: 95 },
-    { icon: Code, name: 'JavaScript', level: 90 },
-    { icon: Code, name: 'React/Redux', level: 95 },
-    { icon: Lightning, name: 'Tailwind CSS', level: 91 },
-    { icon: Cube, name: 'Bootstrap', level: 91 },
-    { icon: Rocket, name: 'Next.js', level: 85 },
-    { icon: Heart, name: 'UI/UX Design', level: 87 },
+    { icon: Code, name: 'JavaScript', level: 85 },
+    { icon: Code, name: 'React', level: 90 },
+    { icon: Lightning, name: 'Tailwind CSS', level: 92 },
+    // { icon: Cube, name: 'Bootstrap', level: 91 },
+    { icon: Rocket, name: 'Next.js', level: 80 },
+    // { icon: Heart, name: 'UI/UX Design', level: 87 },
     { icon: Terminal, name: 'Node.js/Express.js', level: 87 },
     { icon: Database, name: 'MongoDB', level: 87 },
-    { icon: Database, name: 'PostgreSQL', level: 87 },
-    { icon: GitBranch, name: 'Git', level: 89 },
+    { icon: Database, name: 'PostgreSQL', level: 80 },
+    { icon: GitBranch, name: 'Git', level: 85 },
     { icon: Cube, name: 'GitHub', level: 83 },
+    { icon: Brain, name: 'Machine Learning', level: 78 },
+    { icon: Cpu, name: 'Artificial Intelligence', level: 75 },
+    { icon: Robot, name: 'Generative AI', level: 80 },
+    { icon: Robot, name: 'Prompt Engineering', level: 82 },
   ];
 
   useEffect(() => {
@@ -83,7 +87,7 @@ const About = () => {
 
               <div className="relative w-full h-full glass rounded-full p-2 hover:shadow-glow-primary transition-all duration-500 group">
                 <div className="w-full h-full cursor-pointer rounded-full overflow-hidden bg-gradient-secondary">
-                  <img src="/Images/profileLogo.jpg" alt="CodeZenith - Full Stack Developer" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                  <img src="/Images/profile.jpeg" alt="MishthiMahajan - Full Stack Developer" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                 </div>
               </div>
 
@@ -117,10 +121,10 @@ const About = () => {
                 <span className="text-secondary-glow font-medium">3+</span>
                 <span className="text-muted-foreground ml-1">Projects Completed</span>
               </div>
-              <div className="glass px-4 py-2 rounded-lg">
+              {/* <div className="glass px-4 py-2 rounded-lg">
                 <span className="text-accent-glow font-medium">100%</span>
                 <span className="text-muted-foreground ml-1">Client Satisfaction</span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
