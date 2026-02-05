@@ -102,6 +102,7 @@ const Hero = () => {
 
 
 
+
   return (
     <section id="hero" ref={heroRef} className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div ref={splineRef} className="absolute inset-0 w-full h-full opacity-70">
