@@ -93,12 +93,13 @@ const Hero = () => {
 
   const downloadCV = () => {
   const link = document.createElement("a");
-  link.href = "/Mishthi Mahajan - Resume (6).pdf"; // public folder path
-  link.download = "Mishthi_Mahajan_Resume.pdf";   // filename only
+  link.href = encodeURI("/Mishthi Mahajan - Resume(6).pdf");
+  link.download = "Mishthi_Mahajan_Resume.pdf";
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
 };
+
 
   return (
     <section id="hero" ref={heroRef} className="relative min-h-screen flex items-center justify-center overflow-hidden">
