@@ -37,7 +37,7 @@ const Projects = () => {
       description: "A **Skill Exchange Platform** is a web application where people trade skills and services with each other instead of money, helping everyone learn and grow together.",
       image: "/Images/project3.jpeg",
       tech: ["React", "Javascript", "tailwindCSS","Node.js","Expressjs","MongoDB","JWT Authentication","REST APIs","Git/GitHub"],
-      liveUrl: "skill-exchange-lac.vercel.app/",
+      liveUrl: "https://skill-exchange-lac.vercel.app/",
       githubUrl: "https://github.com/mishthimahajan/SkillExchange"
     }
 
