@@ -105,12 +105,17 @@ const About = () => {
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I’m a Full-Stack Developer with 1 year of hands-on experience building fast, scalable, and responsive web applications using React.js, Node.js, Express, MongoDB, and PostgreSQL/MySQL. I specialize in creating secure RESTful APIs, implementing modern frontend interfaces, and managing full deployment pipelines using tools like Docker and Git.
-            </p>
+  I’m a prefinal-year Computer Science student and Full Stack Developer passionate about building fast, scalable, and user-focused web applications. I have hands-on experience developing full-stack projects using React.js, Node.js, Express, MongoDB, and SQL databases, with a strong focus on clean architecture and maintainable code.
+</p>
 
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              My skill set spans both frontend and backend development, with a strong focus on clean code, smooth user experiences, and animation-driven UI using libraries like Framer Motion. I'm passionate about solving real-world problems with practical, efficient, and user-centered solutions.
-            </p>
+<p className="text-lg text-muted-foreground leading-relaxed">
+  I enjoy designing modern, interactive frontend experiences and building secure RESTful APIs on the backend. I’ve worked with tools like Git, Docker, and modern deployment workflows, and I love adding smooth, animation-driven UI using libraries such as Framer Motion.
+</p>
+
+<p className="text-lg text-muted-foreground leading-relaxed">
+  Alongside development, I actively practice Data Structures & Algorithms on LeetCode using C++, and I’m currently exploring Machine Learning, LLMs, and Generative AI to build intelligent, real-world solutions. I’m always eager to learn, collaborate, and take on challenges that push my technical growth.
+</p>
+
 
             <div className="flex flex-wrap gap-4 pt-4">
               <div className="glass px-4 py-2 rounded-lg">
